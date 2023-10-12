@@ -40,11 +40,47 @@
             <source src="src/vid2.mp4" type="video/mp4">
         </video>
     </div>
-    <div class="inset-0 flex absolute items-center justify-center bg-black bg-opacity-70 h-full w-full">
+    <!-- ubah hidden ke flex -->
+    <div id="4697" class="inset-0 absolute items-center justify-center bg-black bg-opacity-70 max-h-full w-full hidden">
         <img src="search/4697/4697_page-0001.jpg" alt="Image" class="w-1/4 max-h-full m-5">
         <img src="search/4697/4697_page-0002.jpg" alt="Image" class="w-1/4 max-h-full m-5">
         <div class="absolute top-5 right-5">
-            <button>
+            <button id="btnClose">
+                <svg viewBox="0 0 24 24" fill="none" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle cx="12" cy="12" r="10" stroke="#ffffff" stroke-width="1.5"></circle> <path d="M14.5 9.50002L9.5 14.5M9.49998 9.5L14.5 14.5" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"></path> </g></svg>
+            </button>
+        </div>
+    </div>
+    <div id="5842" class="inset-0 absolute items-center justify-center bg-black bg-opacity-70 max-h-full w-full hidden">
+        <img src="search/5842/5842_page-0001.jpg" alt="Image" class="w-1/4 max-h-full m-5">
+        <img src="search/5842/5842_page-0002.jpg" alt="Image" class="w-1/4 max-h-full m-5">
+        <div class="absolute top-5 right-5">
+            <button id="btnClose">
+                <svg viewBox="0 0 24 24" fill="none" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle cx="12" cy="12" r="10" stroke="#ffffff" stroke-width="1.5"></circle> <path d="M14.5 9.50002L9.5 14.5M9.49998 9.5L14.5 14.5" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"></path> </g></svg>
+            </button>
+        </div>
+    </div>
+    <div id="5965" class="inset-0 absolute items-center justify-center bg-black bg-opacity-70 max-h-full w-full hidden">
+        <img src="search/5965/5965_page-0001.jpg" alt="Image" class="w-1/4 max-h-full m-5">
+        <img src="search/5965/5965_page-0002.jpg" alt="Image" class="w-1/4 max-h-full m-5">
+        <div class="absolute top-5 right-5">
+            <button id="btnClose">
+                <svg viewBox="0 0 24 24" fill="none" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle cx="12" cy="12" r="10" stroke="#ffffff" stroke-width="1.5"></circle> <path d="M14.5 9.50002L9.5 14.5M9.49998 9.5L14.5 14.5" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"></path> </g></svg>
+            </button>
+        </div>
+    </div>
+    <div id="6042" class="inset-0 absolute items-center justify-center bg-black bg-opacity-70 max-h-full w-full hidden">
+        <img src="search/6042/6042_page-0001.jpg" alt="Image" class="w-1/4 max-h-full m-5">
+        <img src="search/6042/6042_page-0002.jpg" alt="Image" class="w-1/4 max-h-full m-5">
+        <div class="absolute top-5 right-5">
+            <button id="btnClose">
+                <svg viewBox="0 0 24 24" fill="none" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle cx="12" cy="12" r="10" stroke="#ffffff" stroke-width="1.5"></circle> <path d="M14.5 9.50002L9.5 14.5M9.49998 9.5L14.5 14.5" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"></path> </g></svg>
+            </button>
+        </div>
+    </div>
+    <div id="6322" class="inset-0 absolute items-center justify-center bg-black bg-opacity-70 max-h-full w-full hidden">
+        <img src="search/6322/6322_page-0001.jpg" alt="Image" class="w-1/4 max-h-full m-5">
+        <div class="absolute top-5 right-5">
+            <button id="btnClose">
                 <svg viewBox="0 0 24 24" fill="none" width="24" height="24" xmlns="http://www.w3.org/2000/svg"><g id="SVGRepo_bgCarrier" stroke-width="0"></g><g id="SVGRepo_tracerCarrier" stroke-linecap="round" stroke-linejoin="round"></g><g id="SVGRepo_iconCarrier"> <circle cx="12" cy="12" r="10" stroke="#ffffff" stroke-width="1.5"></circle> <path d="M14.5 9.50002L9.5 14.5M9.49998 9.5L14.5 14.5" stroke="#ffffff" stroke-width="1.5" stroke-linecap="round"></path> </g></svg>
             </button>
         </div>
@@ -53,8 +89,8 @@
         <h1 class="text-6xl font-bold">MONITOR YOUR<p>SERVICE REQUEST</p></h1>
         <div class="mt-10 text-center">
             <div class="search-bar flex px-2 rounded-full text-black bg-white w-80 mx-auto">
-                <input type="text" class="text-center rounded-full" placeholder="SR NUMBER">
-                <button>
+                <input id="search" type="text" class="text-center rounded-full" placeholder="SR NUMBER">
+                <button id="searchBtn">
                     <svg fill="#0c1fac" width="64px" height="64px" viewBox="0 0 56 56" xmlns="http://www.w3.org/2000/svg" stroke="#0c1fac">
                         <path d="M 27.9999 51.9063 C 41.0546 51.9063 51.9063 41.0781 51.9063 28 C 51.9063 14.9453 41.0312 4.0937 27.9765 4.0937 C 14.8983 4.0937 4.0937 14.9453 4.0937 28 C 4.0937 41.0781 14.9218 51.9063 27.9999 51.9063 Z M 16.5390 25.3984 C 16.5390 20.4531 20.5936 16.3984 25.5624 16.3984 C 30.5077 16.3984 34.5624 20.4531 34.5624 25.3984 C 34.5624 27.3437 33.9530 29.1250 32.8983 30.5781 L 38.7577 36.4375 C 39.0858 36.7656 39.2968 37.2109 39.2968 37.6563 C 39.2968 38.6406 38.6171 39.3203 37.7030 39.3203 C 37.1640 39.3203 36.7187 39.1563 36.2733 38.7109 L 30.4843 32.9219 C 29.0780 33.8594 27.3671 34.4219 25.5624 34.4219 C 20.5936 34.4219 16.5390 30.3672 16.5390 25.3984 Z M 19.1405 25.3984 C 19.1405 28.9141 22.0468 31.8203 25.5624 31.8203 C 29.0312 31.8203 31.9374 28.9141 31.9374 25.3984 C 31.9374 21.9297 29.0312 19.0234 25.5624 19.0234 C 22.0468 19.0234 19.1405 21.9297 19.1405 25.3984 Z"></path>
                     </svg>
@@ -64,3 +100,48 @@
     </div>
 </body>
 </html>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        // Mengambil elemen input dan tombol pencarian
+        const input = document.getElementById("search");
+        const searchBtn = document.getElementById("searchBtn");
+
+        // Menambahkan event listener untuk tombol pencarian
+        searchBtn.addEventListener("click", function() {
+            // Mengambil nilai dari input
+            const searchTerm = input.value;
+
+            // Mencari div dengan id yang sesuai dengan nilai input
+            const targetDiv = document.getElementById(searchTerm);
+
+            if (targetDiv) {
+                // Mengubah class dari div yang ditemukan
+                targetDiv.classList.remove("hidden");
+                targetDiv.classList.add("flex");
+            } else {
+                // Menampilkan notifikasi jika SR Number tidak ditemukan
+                alert("SR Number tidak ditemukan");
+            }
+        });
+    });
+
+
+    document.addEventListener("DOMContentLoaded", function() {
+        // Mengambil semua tombol btnClose
+        const closeButtons = document.querySelectorAll("#btnClose");
+
+        // Menambahkan event listener untuk setiap tombol btnClose
+        closeButtons.forEach(function(btn) {
+            btn.addEventListener("click", function() {
+                // Mengambil elemen dengan ID yang sesuai
+                const parentDiv = btn.parentElement.parentElement;
+
+                // Mengubah class elemen tersebut dari "flex" menjadi "hidden"
+                parentDiv.classList.remove("flex");
+                parentDiv.classList.add("hidden");
+            });
+        });
+    });
+</script>
+
